@@ -1,0 +1,124 @@
+body {
+	background-image: url("images/background.jpg");
+}
+
+p {
+	font-size: 18px;
+	font-family: "Open Sans";
+	margin: 5px;
+}
+
+h1 {
+	color: transparent;
+	font-family: century gothic;
+	font-weight: normal;
+	font-size: 40px;
+	color: white;
+	text-shadow: -2px 0 #000000,0 2px #000000,2px 0 #000000,0 -2px #000000;
+	display: none;
+	text-align: center;
+}
+
+h2 {
+	font-family: century gothic;
+	font-weight: normal;
+	font-size: 40px;
+	color: white;
+	text-shadow: -2px 0 #000000,0 2px #000000,2px 0 #000000,0 -2px #000000;
+	text-align: center;
+	margin: 5px;
+}
+
+.mid {
+	display: block;
+	margin-left:auto;
+	margin-right: auto;
+	margin-top: 20px;
+}
+
+.holder {
+	border: 3px solid black;
+	height: 500px;
+	width: 200px;
+	overflow: hidden;
+	margin: auto;
+	position: relative;
+	color: white;
+	background-image: url("images/cool.jpg");
+	display: -webkit-box;
+}
+
+
+.text {
+	position: relative;
+    top: 300px;
+	margin: 100px;
+	margin-left: -650px;
+}
+
+.desc {
+	margin-left: 20px;
+	width: 360px;
+	position: relative;
+	background:rgba(1,1,1,0.3);
+}
+
+.skill {
+	height: 50px;
+	width: 50px;
+	margin-top: 7px;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.skilldes{
+	background:rgba(1,1,1,0.3);
+	width: 343px;
+	padding: 5px;
+	margin: 4px;
+	color: white;
+	font-size: 12px;
+	font-family: "Open Sans";
+	border-radius: 3px;
+}
+
+.textskill {
+	margin: 7px;
+	opacity: 1;
+}
+
+.allskills{
+	text-align: center;
+}
+
+.newpic {
+	height: 500px;
+	width: 300px;
+}
+
+#container {
+	width: 1800px;
+	margin: auto;
+}
+
+#back {
+	display: flex;
+	margin-top: -132px;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+}
+
+#a1, #m1 {
+	width: 100px;
+}
+
+#s1 {
+	width: 75px;
+}
+
+#l1 {
+	width: 60px;
+}
